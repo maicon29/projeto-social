@@ -7,6 +7,7 @@ html, body{
     height:100vh;
     width: 100vw;
     background-color: black;
+    
 }
 body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat;
@@ -15,18 +16,19 @@ body{
 main{
     height: 100vh; 
     position:relative;
+    
 }
 
 section#telefone {
     position:absolute;
     top: 50%;
-    left: 50%;
+    left: 42%;
+    
     transform: translate(-50%, -50%);
-
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
-
+    
 }
 
 iframe#tela{
@@ -35,10 +37,12 @@ iframe#tela{
     left: 22px;
     width:269px;
     height: 471px;
+    
 }
 
 section#redes-social {
     text-align: right;
+    
 }
 
 section#redes-social img {
